@@ -62,7 +62,7 @@ The result you will get is the log output with the training accuracy at each epo
 
 # Citation
 
-If you use or extend our work, please cite the following [paper]([https://arxiv.org/abs/2201.08531](https://proceedings.neurips.cc/paper_files/paper/2023/file/2b5af479527167d4af78847a9b9b645f-Paper-Conference.pdf)):
+If you use or extend our work, please cite the following [paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/2b5af479527167d4af78847a9b9b645f-Paper-Conference.pdf):
 
 ```
 @article{wang2024unified,
