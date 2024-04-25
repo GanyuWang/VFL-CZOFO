@@ -18,10 +18,10 @@ Charles X. Ling (Western University)
 Option 1:\
 Install pytorch from https://pytorch.org/.
 
-Other package can be installed via debugging (csv, copy). 
+Other packages can be installed via debugging (csv, copy, etc.). 
 
 Option 2:\
-Use the requirements.txt for config the environment. Or use the file as reference.
+Use the requirements.txt for config the environment. Or use the file as a reference.
 ```
 $ pip install -r requirements.txt
 ```
@@ -57,8 +57,20 @@ $ python main.py --[arguments below] [argument value below]
 
 
 # Result
-The result you will get is the log ouput with the training accuracy at each epoch, the commmunication cost for each epoch, and the test accuracy at the last row. 
+The result you will get is the log output with the training accuracy at each epoch, the communication cost for each epoch, and the test accuracy at the last row. 
 
 
+# Citation
 
+If you use or extend our work, please cite the following [paper]([https://arxiv.org/abs/2201.08531](https://proceedings.neurips.cc/paper_files/paper/2023/file/2b5af479527167d4af78847a9b9b645f-Paper-Conference.pdf)):
+
+```
+@article{wang2024unified,
+  title={A Unified Solution for Privacy and Communication Efficiency in Vertical Federated Learning},
+  author={Wang, Ganyu and Gu, Bin and Zhang, Qingsong and Li, Xiang and Wang, Boyu and Ling, Charles X},
+  journal={Advances in Neural Information Processing Systems},
+  volume={36},
+  year={2024}
+}
+```
 
